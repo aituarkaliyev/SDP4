@@ -1,0 +1,8 @@
+package main;
+
+public class OggCodec implements Codec {
+    @Override
+    public String getType() {
+        return "ogg";
+    }
+}
